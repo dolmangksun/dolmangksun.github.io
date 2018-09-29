@@ -7,4 +7,4 @@
 <a href="https://dolmangksun.github.io/1/">INTRO</a>
 <br><a href="1.html">Music</a>
 <br><a href="https://dolmangksun.github.io/hello-world">Hello-world!</a>
-<button type="button" onclick="document.getElementById('demo1').inneerHTML='WorldOfChaos'">Secret Open!!</button>
+<button type="button" onclick="document.getElementById('demo1').innerHTML='WorldOfChaos'">Secret Open!!</button>
