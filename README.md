@@ -8,4 +8,13 @@
 <br><a href="1.html">Music</a>
 <br><a href="https://dolmangksun.github.io/hello-world">Hello-world!</a>
 <br>
-<button type="button" onclick="document.getElementById('demo1').innerHTML='WorldOfChaos'">Secret Open!!</button>
+<input type="text" id="pas">
+<button onclick="Mf()">clickme</button>
+<script>
+  function Mf() {
+  var x = document.getElementById("pas").value
+  if (x=="1234abc") {
+  document.getElementById('demo1').innerHTML='WorldOfChaos'
+  }
+  }
+</script>
