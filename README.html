@@ -4,9 +4,19 @@
     <link rel="stylesheet" href="test.css">
     <style>
       div {
-      width: 100px;
-      height: 100px;
-      background-color: rgb(96,96,96);
+        width: 100px;
+        height: 100px;
+        background-color: rgb(96,96,96);
+        animation: mo 1s infinite alternate;
+        -webkit-animation: mo 1s infinite alternate;
+      }
+      @-webkit-keyframes mo {
+        0% {left: 0px;}
+        100% {left: 300px;}
+      }
+      @keyframes mo {
+        0% {left: 0px;}
+        100% {left: 300px;}
       }
     </style>
   </head>
@@ -15,6 +25,6 @@
     <a href="https://dolmangksun.github.io/1/">INTRO</a>
     <br><a href="1.html">Music</a>
     <br><a href="https://dolmangksun.github.io/hello-world">Hello-world!</a>
-    <br><div></div>
+    <br><a href="https://dolmangksun.github.io/tests"><div></div></a>
   </body>
 </html>
